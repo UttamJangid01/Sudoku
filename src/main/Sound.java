@@ -14,8 +14,6 @@ public class Sound {
 	private Clip clip;
 
 	public void playSound(String soundFileName) {
-		System.out.println("name : "+soundFileName);
-		
 		try {
 	        // Load the sound file
 	        File soundFile = new File(soundFileName);
